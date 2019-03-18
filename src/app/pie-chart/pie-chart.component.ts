@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartType, ChartOptions } from 'chart.js';
-import { Label } from 'ng2-charts';
 import * as pluginDataLabels from 'chartjs-plugin-datalabels';
+import { ChartOptions, ChartType, Label } from '../app-chart-config';
 
 @Component({
   selector: 'app-pie-chart',
